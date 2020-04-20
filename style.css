@@ -1,0 +1,52 @@
+header {
+    font-weight: normal;
+
+}
+
+.name h1{
+    margin-bottom: 0px;
+}
+
+.name h5{
+    margin-top: 0px;
+
+}
+
+.item{
+     width: 30%;
+     flex: auto;
+     margin-right: 3%;
+
+}
+
+.container h2{
+    text-align: center;
+}
+
+body{
+    margin: 40px 20%;
+    color: #556b2f;
+    background-color: #dcdcdc;
+}
+
+th , td ,li{ 
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+  
+
+th{
+    text-align: left;
+}
+
+.container{
+    border-top: 1px solid black;
+    display: flex;
+}
+
+@media(max-width :670px){
+    .container{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
